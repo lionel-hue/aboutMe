@@ -1,0 +1,849 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+
+  <style>
+
+    *{
+
+
+
+  user-select:none;
+
+
+
+  transition:2s;
+
+}
+
+
+
+body{
+
+    padding:0;
+
+    margin:0;
+
+    overflow-x:hidden;
+
+    background:url("https://i.ibb.co/cTkJSNJ/skyscrapers-airplane-high-rise-building-metropolis-5k-1920x1080-5850.jpg");
+
+    background-size:cover;
+
+    background-repeat:repeat-y;
+
+    background-blend-mode:lighten;
+
+
+
+}
+
+
+
+
+
+body .container{
+
+    width:100vw;
+
+    height:100vh;
+
+}
+
+
+
+@media screen and (min-width:1024px){
+
+
+
+body .container .header_1{
+
+    width:100%;
+
+    height:3.5rem;
+
+    background:hsla(0,100%,0%,0.45);
+
+    color:rgba(225,225,225,1);
+
+    justify-content:center;
+
+    align-items:center;
+
+    display:flex;
+
+    font-weight:900;
+
+    font-size:1.05em;
+
+    font-family:Comic Sans Ms;
+
+}
+
+
+
+
+
+body .container .header_1 a{
+
+    position:absolute;
+
+    top:2%;
+
+    left:0;
+
+    margin-left:90%;
+
+    text-decoration:none;
+
+    color:rgba(225,225,225,1);
+
+    animation-name:go;
+
+    animation-duration:2s;
+
+    animation-iteration-count:infinite;
+
+    animation-delay:5s;
+
+}
+
+
+
+@keyframes go{
+
+    from{
+
+        color:rgba(225,225,225,1);
+
+    }
+
+     50%{
+
+        color:#3A5AE1;
+
+     }
+
+     100%{
+
+        color:rgba(225,225,225,1);
+
+     }
+
+}
+
+
+
+body .container .header_2{
+
+    display:none;
+
+}
+
+
+
+body .container .nav_1{
+
+    background:linear-gradient(to right, hsla(0,100%,0%,0.45), rgba(0,0,0,0));
+
+    width:75%;
+
+    height:30%;
+
+    margin:8% 0 0 100%;
+
+    border-top-left-radius:1em;
+
+    border-bottom-left-radius:1em;
+
+    padding-top:.25%;
+
+}
+
+
+
+body .container .nav_1 .title{
+
+    font-size:1.75em;
+
+    font-family: Impact;
+
+    margin-left:15%;
+
+    color:#3A5AE1;
+
+}
+
+
+
+body .container .nav_1 .line{
+
+    background:#3A5AE1;
+
+    width:5.5%;
+
+    height:1.5%;
+
+    margin-top:-1%;
+
+    margin-left:25%;
+
+}
+
+
+
+body .container .nav_1 .description{
+
+    width:50%;
+
+    color:rgba(225,225,225,1);
+
+    font-family:Comic Sans Ms;
+
+    margin-left:12.5%;
+
+  
+
+}
+
+
+
+
+
+body .container .nav_2{
+
+    background:linear-gradient(to left, hsla(0,100%,0%,0.45), rgba(0,0,0,0));
+
+    width:75%;
+
+    height:30%;
+
+    margin:8% 0 0 -100%;
+
+    border-top-right-radius:1em;
+
+    border-bottom-right-radius:1em;
+
+    padding-top:.25%;
+
+
+
+}
+
+
+
+body .container .nav_2 .title{
+
+    font-size:1.75em;
+
+    font-family: Impact;
+
+    margin-left:72.5%;
+
+    color:#3A5AE1;
+
+}
+
+
+
+body .container .nav_2 .line{
+
+    background:#3A5AE1;
+
+    width:5.5%;
+
+    height:1.5%;
+
+    margin-top:-1%;
+
+    margin-left:80.5%;
+
+}
+
+
+
+body .container .nav_2 .description{
+
+    width:50%;
+
+    color:rgba(225,225,225,1);
+
+    font-family:Comic Sans Ms;
+
+    margin-left:45%;
+
+    text-align:right;
+
+  
+
+}
+
+
+
+
+
+body .container .nav_3{
+
+  position:absolute;
+
+  left:80%;
+
+  top:120%;
+
+  width:15.5vw;
+
+  height:4em;
+
+  background:#3A5AE1;
+
+  justify-content:center;
+
+  align-items:center;
+
+  display:flex;
+
+  border-radius:2em;
+
+  box-shadow:0 3px 3px  rgba(225,225,225,1) inset;
+
+  animation-name:glow;
+
+  animation-duration:5s;
+
+  animation-iteration-count:infinite;
+
+  animation-delay:5000ms;
+
+
+
+}
+
+
+
+body .container .nav_3 a{
+
+  text-decoration:none;
+
+  color:rgba(225,225,225,1);
+
+  font-family:Comic Sans Ms;
+
+}
+
+
+
+@keyframes glow{
+
+    from{
+
+        background:#3A5AE1;
+
+    }
+
+     50%{
+
+        background:#608BDC;
+
+     }
+
+     to{
+
+        background-color:#3A5AE1;
+
+     }
+
+}
+
+
+
+body .container .nav_4 img{
+
+    border-radius:50%;
+
+    width:15%;
+
+    position:absolute;
+
+    top:-100%;
+
+    left:18%;
+
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1024px){
+
+
+
+
+
+    body .container .header_2{
+
+    width:100%;
+
+    height:3.5rem;
+
+    background:hsla(0,100%,0%,0.45);
+
+    color:rgba(225,225,225,1);
+
+    justify-content:center;
+
+    align-items:center;
+
+    display:flex;
+
+    font-weight:900;
+
+    font-size:1.05em;
+
+    font-family:Comic Sans Ms;
+
+}
+
+
+
+
+
+body .container .header_2 a{
+
+    position:absolute;
+
+    top:2.75%;
+
+    left:0;
+
+    margin-left:80%;
+
+    text-decoration:none;
+
+    color:rgba(225,225,225,1);
+
+    animation-name:go;
+
+    animation-duration:2s;
+
+    animation-iteration-count:infinite;
+
+    animation-delay:5s;
+
+}
+
+
+
+@keyframes go{
+
+    from{
+
+        color:rgba(225,225,225,1);
+
+    }
+
+     50%{
+
+        color:#3A5AE1;
+
+     }
+
+     100%{
+
+        color:rgba(225,225,225,1);
+
+     }
+
+}
+
+
+
+body .container .header_1{
+
+    display:none;
+
+} 
+
+
+
+
+
+body .container .nav_1{
+
+    background:linear-gradient(to right, hsla(0,100%,0%,0.45), rgba(0,0,0,0));
+
+    width:75%;
+
+    height:35%;
+
+    position:absolute;
+
+    top:28.5%;
+
+    left:-100%;
+
+    margin:0 0 0 12.5%;
+
+    border-top-left-radius:1em;
+
+    border-bottom-left-radius:1em;
+
+    padding-top:.75%;
+
+}
+
+
+
+body .container .nav_1 .title{
+
+    font-size:1.5em;
+
+    font-family: Impact;
+
+    width:100%;
+
+    text-align:center;
+
+    color:#3A5AE1;
+
+    margin-top:12%;
+
+}
+
+
+
+body .container .nav_1 .line{
+
+    background:#3A5AE1;
+
+    width:5%;
+
+    height:1%;
+
+    margin-top:-1%;
+
+    margin-left:47.5%;
+
+}
+
+
+
+body .container .nav_1 .description{
+
+    width:75%;
+
+    text-align:left;
+
+    color:rgba(225,225,225,1);
+
+    font-family:Comic Sans Ms;
+
+    margin-left:12.5%;
+
+    font-size:.85em;
+
+    font-weight:600;
+
+  
+
+}
+
+
+
+
+
+
+
+body .container .nav_2{
+
+    background:linear-gradient(to right, hsla(0,100%,0%,0.45), rgba(0,0,0,0));
+
+    width:75%;
+
+    height:35%;
+
+    position:absolute;
+
+    top:62.5%;
+
+    left:100%;
+
+    margin:0 0 0 12.5%;
+
+    border-top-left-radius:1em;
+
+    border-bottom-left-radius:1em;
+
+    padding-top:.75%;
+
+}
+
+
+
+body .container .nav_2 .title{
+
+    font-size:1.5em;
+
+    font-family: Impact;
+
+    width:100%;
+
+    text-align:center;
+
+    color:#3A5AE1;
+
+    margin-top:12%;
+
+}
+
+
+
+body .container .nav_2 .line{
+
+    background:#3A5AE1;
+
+    width:5%;
+
+    height:1%;
+
+    margin-top:-1%;
+
+    margin-left:47.5%;
+
+}
+
+
+
+body .container .nav_2 .description{
+
+    width:75%;
+
+    text-align:left;
+
+    color:rgba(225,225,225,1);
+
+    font-family:Comic Sans Ms;
+
+    margin-left:12.5%;
+
+    font-size:.85em;
+
+    font-weight:600;
+
+  
+
+}
+
+
+
+
+
+body .container .nav_3{
+
+    display:none;
+
+  }
+
+
+
+body .container .nav_4 img{
+
+    border-radius:50%;
+
+    width:30%;
+
+    position:absolute;
+
+    top:-50%;
+
+    left:35%;
+
+}
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+  </style>
+
+</head>
+
+<body>
+
+
+
+    <div class="container">
+
+        <header class="header_1">About me
+
+            <a href="https://wa.me/+22956550980" target="_blank">contact me 📲</a>
+
+        </header>
+
+
+
+        <header class="header_2">(I)
+
+            <a href="https://wa.me/+22956550980" target="_blank">contact me</a>
+
+        </header>
+
+
+
+
+
+           <nav class="nav_1">
+
+            <p class="title">Dev_Lionel TECHNOLOGY</p>
+
+            <div class="line"></div>
+
+            <p class="description">I'm a web developer,video AD creator,VFX & graphics designer. 3D logo designs, flyer creation and animation</p>
+
+           </nav>
+
+
+
+           <nav class="nav_2">
+
+            <p class="title">Come! and Explore</p>
+
+            <div class="line"></div>
+
+            <p class="description">I have different ready made website templates(for redesign etc), logos, advert vids etc... Explore my collection and see for yourself! I and my team are patiently waiting for your orders!  </p>
+
+           </nav>
+
+
+
+           <nav class="nav_3">
+
+             <a href="wa.me/+22956550980" target="_blank">Explore now!</a>
+
+           </nav>
+
+
+
+           <nav class="nav_4">
+
+             <img src="https://i.ibb.co/rmH75kn/IMG-20230718-201208047.jpg" alt="">
+
+           </nav>
+
+    </div>
+
+
+
+    <script>let nav_1 = document.getElementsByClassName("nav_1")[0],
+
+    nav_2 = document.getElementsByClassName("nav_2")[0],
+
+    photo = document.getElementsByTagName("img")[0],
+
+    button = document.getElementsByClassName("nav_3")[0]
+
+
+
+
+
+    if(innerWidth >1024 ){
+
+
+
+    setTimeout(()=>{
+
+          nav_1.style.margin= "8% 0 0 25%"
+
+    },250)
+
+
+
+    setTimeout(()=>{
+
+        nav_2.style.margin= "8% 0 0 0"
+
+  },1250)
+
+
+
+    setTimeout(()=>{
+
+        photo.style.top= "23%"
+
+    },2250)
+
+
+
+    setTimeout(()=>{
+
+        button.style.top= "85%"
+
+    },5250)
+
+}
+
+
+
+
+
+else{
+
+    setTimeout(()=>{
+
+          nav_1.style.left = 0
+
+    },250)
+
+
+
+    setTimeout(()=>{
+
+        nav_2.style.left = 0
+
+  },1250)
+
+
+
+    setTimeout(()=>{
+
+        photo.style.top= "10%"
+
+    },2250)
+
+}
+
+
+
+</script>
+
+</body>
+
+</html>
